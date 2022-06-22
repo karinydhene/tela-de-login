@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body{
+        display: flex;
+        background-color: aqua;
+        justify-content: center;
+        align-items: center;
+    }
+    .form1{
+        color: white;
+        background-color: black;
+        border: 4px solid red;
+        border-radius: 30px;
+        margin-top: 150px;
+    }
+    .div1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 15pt;
+    }
+    .inp1{
+        border-radius: 40px;
+        height: 30px;
+    }
+    .inp2{
+        border-radius: 40px;
+        width: 70px;
+        height: 40px;
+    }
+
+</style>
+<body>
+    <form class="form1">
+        <div class="div1">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="eai" required="" placeholder="" class="inp1">
+        </div>
+        
+        <div class="div1">
+            <label for="Email">Email:</label>
+            <input type="text" name="eai" required="" placeholder="" class="inp1">
+        </div>
+        <div class="div1">
+            <label for="Senha">Senha:</label>
+            <input type="password" name="eai" required="" placeholder="" class="inp1">
+        </div>
+        <div class="div1">
+            <button class="inp2">Login</button>
+        </div>
+    </form>
+</body>
+</html>
